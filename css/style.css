@@ -54,7 +54,7 @@ p {
 .intro {
   background:
   linear-gradient(
-      rgba(255, 255, 255, 0.50),
+      rgba(255, 255, 255, 0.051),
       rgba(255, 255, 255, 1.0)
     ),url(../media/cover.png) no-repeat center center fixed;
     -webkit-background-size: cover;
