@@ -2,10 +2,10 @@
 /*            Typography            */
 /*-------------------------------*/
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-  font-size: 62px;
-  letter-spacing: -1px;
+  font-size: 90px;
+  letter-spacing: 0px;
   margin-top: 44px;
   margin-bottom: 0;
 }
@@ -13,9 +13,16 @@ h1 {
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 37px;
   letter-spacing: 0;
   margin-bottom: 22px;
+}
+
+h3 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  font-size: 23px;
+  padding-top: 12px;
 }
 
 h4 {
@@ -103,9 +110,36 @@ p {
 }
 
 a {
-  color: #f95658;
+  color: #28bdde;
 }
 
 a:hover {
-  color: #c74446;
+  color: #28bddead;
+}
+
+.arrow-btn{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9;
+}
+
+.arrow-btn a{
+  height: 40px;
+  width: 37px;
+  text-align: center;
+  background: #28bdde;
+  display: block;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.arrow-btn a span{
+  color: #f2f2f2;
+  line-height: 39px;
+  font-size: 25px;
+}
+
+html{
+  scroll-behavior: smooth;
 }
